@@ -84,7 +84,9 @@ void displayDate(Date date) {
 }
 
 // (6) (Michael) Create a function display() that will display all information of 1 candidate. Whenever appropriate, call displayDate()
-
+void display(Date date, Name name, Candidate candidate){
+    printf("%s %s %c.", candidate.lastname, candidate.firstname)
+}
 
 // (7) (Myka)
 
