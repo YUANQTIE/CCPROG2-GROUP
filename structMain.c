@@ -156,6 +156,12 @@ int main(void) {
   
     int nCandidates = 0, nChoice;
 
+    for (int i = 0; i < MAX_CANDIDATES; i++)
+    {
+        Candidate_List[i].candidate_nBills = 0;
+    }
+            
+
     printf("MENU\n\n");
 
     printf("1] Add Candidate Info\n");
